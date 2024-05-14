@@ -1,7 +1,11 @@
 html,
 body {
-  width: 100%;
-  height: 100%;
   margin: 0;
   padding: 0;
+  background-color: #faedcd;
+}
+
+body {
+  max-width: 120rem;
+  margin: 0 auto;
 }

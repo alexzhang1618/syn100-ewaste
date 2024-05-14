@@ -19,6 +19,7 @@
   @media screen and (width <= vars.$breakpoint-sm) {
     margin: 1.5rem;
     height: calc(100vh - 3rem);
+    gap: 1.5rem;
   }
 }
 

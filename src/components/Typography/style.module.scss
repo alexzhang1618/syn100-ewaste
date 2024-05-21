@@ -22,3 +22,12 @@
     font-size: 12px;
   }
 }
+
+.body {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 15px;
+
+  @media screen and (width <= vars.$breakpoint-sm) {
+    font-size: 10px;
+  }
+}

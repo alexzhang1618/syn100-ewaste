@@ -5,6 +5,10 @@ body {
   background-color: #faedcd;
 }
 
+html {
+  scroll-behavior: smooth !important;
+}
+
 body {
   max-width: 120rem;
   margin: 0 auto;

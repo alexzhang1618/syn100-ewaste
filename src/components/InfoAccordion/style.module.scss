@@ -1,0 +1,38 @@
+@use 'src/styles/vars.scss' as vars;
+
+.accordion {
+  border: 0;
+  box-shadow: none;
+  border-radius: 1rem !important;
+  background-color: vars.$green;
+  overflow: hidden;
+
+  &::before {
+    display: none;
+  }
+
+  &:global(.Mui-expanded) {
+    margin: 0;
+  }
+}
+
+.accordionSummary {
+  background-color: vars.$green !important;
+  color: white;
+  margin: 12px 0 !important;
+
+  &:global(.Mui-expanded) {
+    min-height: unset !important;
+  }
+
+  > div {
+    &:global(.Mui-expanded) {
+      margin: 12px 0 !important;
+    }
+  }
+}
+
+.accordionDetails {
+  color: white;
+  background-color: vars.$charcoal;
+}

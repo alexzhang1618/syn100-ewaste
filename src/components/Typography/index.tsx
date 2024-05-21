@@ -1,7 +1,7 @@
 import { ReactNode } from 'react';
 import styles from './style.module.scss';
 
-type Variant = 'title' | 'label';
+type Variant = 'title' | 'label' | 'body';
 
 interface TypographyProps {
   variant: Variant;
@@ -14,6 +14,8 @@ function getClassNameFromVariant(variant: Variant) {
       return styles.title;
     case 'label':
       return styles.label;
+    case 'body':
+      return styles.body;
     default:
       return styles.title;
   }

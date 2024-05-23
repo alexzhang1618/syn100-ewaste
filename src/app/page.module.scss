@@ -11,3 +11,11 @@
     gap: 1.5rem;
   }
 }
+
+.background {
+  z-index: -1;
+  opacity: 15%;
+  position: fixed !important;
+  height: 100vh;
+  object-fit: cover;
+}

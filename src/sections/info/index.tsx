@@ -30,11 +30,10 @@ export default function Info() {
               <ul className={styles.list}>
                 <li>
                   e-waste often contains hazardous materials such as lead, mercury, cadmium, and
-                  flame retardants
+                  flame retardants.
                 </li>
                 <li>
-                  improper management during disposal poses significant environmental and health
-                  risks
+                  improper disposal of e-waste poses significant environmental and health risks.
                 </li>
               </ul>
             </Typography>
@@ -43,29 +42,16 @@ export default function Info() {
             <Typography variant="body">
               <ul className={styles.list}>
                 <li>
-                  developing nations are disproportionately harmed due to illegal dumping and lack
-                  of treatment options. This leads to improper recycling often performed by
-                  children. This exposes them and the environment to high levels of hazardous
-                  chemicals and injury.
+                  large amounts of e-waste are exported from developed nations to developing
+                  countries, who don&apos;t have the tools to properly dispose of e-waste.
                 </li>
-                <li>usually done in developing countries and by children</li>
                 <li>
-                  struggle due to issues like inadequate data, illegal dumping, and lack of
-                  treatment options.
-                  <ul>
-                    <li>
-                      informal recyclers often use basic techniques and tools to extract materials
-                      from e-waste, such as burning or manually dismantling electronics
-                    </li>
-                    <ul>
-                      <li>exposes workers to high levels of hazardous chemicals and injury</li>
-                      <li>usually done in developing countries and by children</li>
-                      <li>
-                        contributes to 67% of the total emissions produced by the product over its
-                        lifetime
-                      </li>
-                    </ul>
-                  </ul>
+                  developing countries don&apos;t have the tools to properly dispose of e-waste and
+                  often resort to burning or manually dismantling electronics.
+                </li>
+                <li>
+                  e-waste disposal in developing countries are often performed by children, who are
+                  exposed to high levels of hazardous chemicals and injury.
                 </li>
               </ul>
             </Typography>

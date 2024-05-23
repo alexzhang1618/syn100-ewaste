@@ -19,7 +19,7 @@
   font-size: 21px;
 
   @media screen and (width <= vars.$breakpoint-sm) {
-    font-size: 12px;
+    font-size: 16px;
   }
 }
 
@@ -28,6 +28,6 @@
   font-size: 15px;
 
   @media screen and (width <= vars.$breakpoint-sm) {
-    font-size: 10px;
+    font-size: 15px;
   }
 }

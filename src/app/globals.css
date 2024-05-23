@@ -2,14 +2,15 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background-color: #faedcd;
 }
 
 html {
   scroll-behavior: smooth !important;
+  background-color: #faedcd;
 }
 
 body {
   max-width: 120rem;
   margin: 0 auto;
+  background-image: url(../../public/background.png);
 }

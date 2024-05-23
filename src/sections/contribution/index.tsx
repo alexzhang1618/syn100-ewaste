@@ -1,6 +1,5 @@
 import Typography from '@/components/Typography';
 import styles from './style.module.scss';
-import Image from 'next/image';
 import InfoAccordion from '@/components/InfoAccordion';
 
 export default function Contribution() {
@@ -8,7 +7,7 @@ export default function Contribution() {
     <div className={styles.container}>
       <div className={styles.contribution}>
         <div className={styles.title}>
-          <Typography variant="title">planned obsolescence</Typography>
+          <Typography variant="title">obsolescence</Typography>
         </div>
         <div className={styles.dropdownContainer}>
           <InfoAccordion title="planned obsolescence">
@@ -31,24 +30,6 @@ export default function Contribution() {
                   with a newer model even though the old model works perfectly fine
                 </li>
                 <li>insert info</li>
-              </ul>
-            </Typography>
-          </InfoAccordion>
-          <InfoAccordion title="third world shipping">
-            <Typography variant="body">
-              <ul className={styles.list}>
-                <li>
-                  large amounts of e-waste are exported from developed nations to developing
-                  countries, who don&apos;t have the tools to properly dispose of e-waste.
-                </li>
-                <li>
-                  developing countries don&apos;t have the tools to properly dispose of e-waste and
-                  often resort to burning or manually dismantling electronics.
-                </li>
-                <li>
-                  e-waste disposal in developing countries are often performed by children, who are
-                  exposed to high levels of hazardous chemicals and injury.
-                </li>
               </ul>
             </Typography>
           </InfoAccordion>

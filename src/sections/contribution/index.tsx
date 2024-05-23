@@ -37,9 +37,18 @@ export default function Contribution() {
           <InfoAccordion title="third world shipping">
             <Typography variant="body">
               <ul className={styles.list}>
-                <li>insert info</li>
-                <li>insert info</li>
-                <li>insert info</li>
+                <li>
+                  large amounts of e-waste are exported from developed nations to developing
+                  countries, who don&apos;t have the tools to properly dispose of e-waste.
+                </li>
+                <li>
+                  developing countries don&apos;t have the tools to properly dispose of e-waste and
+                  often resort to burning or manually dismantling electronics.
+                </li>
+                <li>
+                  e-waste disposal in developing countries are often performed by children, who are
+                  exposed to high levels of hazardous chemicals and injury.
+                </li>
               </ul>
             </Typography>
           </InfoAccordion>

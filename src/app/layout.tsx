@@ -7,8 +7,8 @@ import Image from 'next/image';
 const dmSans = DM_Sans({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'ACM Static Site Template',
-  description: 'Template for making ACM websites!',
+  title: 'E-Waste | Seventh College',
+  description: 'Learn more about the e-waste crisis.',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

@@ -1,33 +1,16 @@
 import Typography from '@/components/Typography';
 import styles from './style.module.scss';
 import InfoAccordion from '@/components/InfoAccordion';
+import Image from 'next/image';
 
 export default function Help() {
   return (
     <div className={styles.container}>
       <div className={styles.help}>
-        <Typography variant="title">what can you do?</Typography>
+        <Typography variant="title">what can you do as seviies?</Typography>
       </div>
       <div className={styles.dropdownContainer}>
-        <InfoAccordion title="ways you can dispose e-waste">
-          <Typography variant="body">
-            <ul className={styles.list}>
-              <li>
-                check if the company has a recycling program that accepts your old electronic
-                device. You may be able to trade in your old device or recycle it for free.
-              </li>
-              <li>
-                check out your local recycling center. Some e-waste requires a drop off fee while
-                others can be recycled for free
-              </li>
-              <li>
-                Check out your local thrift store. Many thrift stores accept certain electronics
-              </li>
-            </ul>
-            by doing this your e-waste will go through properly regulated and formal recycling
-          </Typography>
-        </InfoAccordion>
-        <InfoAccordion title="formal recycling">
+      <InfoAccordion title="ways you can dispose e-waste (on campus)">
           <Typography variant="body">
             <ul className={styles.list}>
               <li>
@@ -51,6 +34,24 @@ export default function Help() {
             </ul>
           </Typography>
         </InfoAccordion>
+        <InfoAccordion title="ways you can dispose e-waste (off campus)">
+          <Typography variant="body">
+            <ul className={styles.list}>
+              <li>
+                check if the company has a recycling program that accepts your old electronic
+                device. you may be able to trade in your old device or recycle it for free.
+              </li>
+              <li>
+                check out your local recycling center. some e-waste requires a drop off fee while
+                others can be recycled for free
+              </li>
+              <li>
+                check out your local thrift store. many thrift stores accept certain electronics
+              </li>
+            </ul>
+            by doing this your e-waste will go through properly regulated and formal recycling
+          </Typography>
+        </InfoAccordion>
         <InfoAccordion title="informal recycling">
           <Typography variant="body">
             <ul className={styles.list}>
@@ -69,6 +70,15 @@ export default function Help() {
             </ul>
           </Typography>
         </InfoAccordion>
+      </div>
+      <div className={styles.graphic}>
+        <Image
+          src="/Seventh_College_logo.png"
+          width={600}
+          height={600}
+          alt="Seventh College Logo"
+          className={styles.graphic}
+        />
       </div>
     </div>
   );

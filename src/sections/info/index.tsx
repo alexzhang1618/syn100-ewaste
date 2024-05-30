@@ -11,7 +11,7 @@ export default function Info() {
           <Typography variant="title">what is e-waste?</Typography>
         </div>
         <div className={styles.dropdownContainer}>
-          <InfoAccordion title="what is e-waste?">
+          <InfoAccordion title="what is e-waste?" defaultExpanded>
             <Typography variant="body">
               <ul className={styles.list}>
                 <li>

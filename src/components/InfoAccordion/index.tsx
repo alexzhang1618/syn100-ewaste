@@ -8,11 +8,12 @@ import styles from './style.module.scss';
 interface InfoAccordionProps {
   title: string;
   children: ReactNode;
+  defaultExpanded?: boolean;
 }
 
-export default function InfoAccordion({ title, children }: InfoAccordionProps) {
+export default function InfoAccordion({ title, children, defaultExpanded }: InfoAccordionProps) {
   return (
-    <Accordion className={styles.accordion}>
+    <Accordion className={styles.accordion} defaultExpanded={defaultExpanded}>
       <AccordionSummary className={styles.accordionSummary}>
         <Typography variant="label">
           <strong>&gt; {title}</strong>

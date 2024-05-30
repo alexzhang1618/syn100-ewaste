@@ -1,6 +1,7 @@
 import Typography from '@/components/Typography';
 import styles from './style.module.scss';
 import InfoAccordion from '@/components/InfoAccordion';
+import Image from 'next/image';
 
 export default function Contribution() {
   return (
@@ -10,7 +11,7 @@ export default function Contribution() {
           <Typography variant="title">obsolescence</Typography>
         </div>
         <div className={styles.dropdownContainer}>
-          <InfoAccordion title="planned obsolescence">
+          <InfoAccordion title="planned obsolescence" defaultExpanded>
             <Typography variant="body">
               <ul className={styles.list}>
                 <li>
@@ -34,6 +35,15 @@ export default function Contribution() {
             </Typography>
           </InfoAccordion>
         </div>
+      </div>
+      <div className={styles.graphic}>
+        <Image
+          src="/ticking-phone.svg"
+          width={400}
+          height={600}
+          alt="Ticking phone"
+          className={styles.graphic}
+        />
       </div>
     </div>
   );

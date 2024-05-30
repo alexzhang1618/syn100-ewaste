@@ -9,12 +9,22 @@ interface InfoAccordionProps {
   title: string;
   children: ReactNode;
   defaultExpanded?: boolean;
+  accentColor?: string;
 }
 
-export default function InfoAccordion({ title, children, defaultExpanded }: InfoAccordionProps) {
+export default function InfoAccordion({
+  title,
+  children,
+  defaultExpanded,
+  accentColor = '#d5771a',
+}: InfoAccordionProps) {
   return (
-    <Accordion className={styles.accordion} defaultExpanded={defaultExpanded}>
-      <AccordionSummary className={styles.accordionSummary}>
+    <Accordion
+      className={styles.accordion}
+      defaultExpanded={defaultExpanded}
+      sx={{ backgroundColor: accentColor }}
+    >
+      <AccordionSummary className={styles.accordionSummary} sx={{ backgroundColor: accentColor }}>
         <Typography variant="label">
           <strong>&gt; {title}</strong>
         </Typography>

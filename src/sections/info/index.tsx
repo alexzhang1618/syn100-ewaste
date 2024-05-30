@@ -3,15 +3,18 @@ import styles from './style.module.scss';
 import Image from 'next/image';
 import InfoAccordion from '@/components/InfoAccordion';
 
+const COLOR = '#7eb65e';
 export default function Info() {
   return (
     <div className={styles.container} id="info">
       <div className={styles.info}>
         <div className={styles.title}>
-          <Typography variant="title">what is e-waste?</Typography>
+          <Typography variant="title" style={{ color: COLOR }}>
+            what is e-waste?
+          </Typography>
         </div>
         <div className={styles.dropdownContainer}>
-          <InfoAccordion title="what is e-waste?" defaultExpanded>
+          <InfoAccordion title="what is e-waste?" defaultExpanded accentColor={COLOR}>
             <Typography variant="body">
               <ul className={styles.list}>
                 <li>
@@ -25,7 +28,7 @@ export default function Info() {
               </ul>
             </Typography>
           </InfoAccordion>
-          <InfoAccordion title="why is e-waste bad?">
+          <InfoAccordion title="why is e-waste bad?" accentColor={COLOR}>
             <Typography variant="body">
               <ul className={styles.list}>
                 <li>
@@ -38,7 +41,7 @@ export default function Info() {
               </ul>
             </Typography>
           </InfoAccordion>
-          <InfoAccordion title="not-so-fun-facts about e-waste">
+          <InfoAccordion title="not-so-fun-facts about e-waste" accentColor={COLOR}>
             <Typography variant="body">
               <ul className={styles.list}>
                 <li>

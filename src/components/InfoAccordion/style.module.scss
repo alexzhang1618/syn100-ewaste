@@ -4,7 +4,6 @@
   border: 0;
   box-shadow: none;
   border-radius: 1rem !important;
-  background-color: vars.$green;
   overflow: hidden;
 
   &::before {
@@ -17,7 +16,6 @@
 }
 
 .accordionSummary {
-  background-color: vars.$green !important;
   color: white;
   margin: 12px 0 !important;
 

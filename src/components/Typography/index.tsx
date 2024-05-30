@@ -1,10 +1,11 @@
-import { ReactNode } from 'react';
+import { CSSProperties, ReactNode } from 'react';
 import styles from './style.module.scss';
 
 type Variant = 'title' | 'label' | 'body';
 
 interface TypographyProps {
   variant: Variant;
+  style?: CSSProperties;
   children: ReactNode;
 }
 
@@ -21,6 +22,10 @@ function getClassNameFromVariant(variant: Variant) {
   }
 }
 
-export default function Typography({ variant, children }: TypographyProps) {
-  return <div className={getClassNameFromVariant(variant)}>{children}</div>;
+export default function Typography({ variant, children, style }: TypographyProps) {
+  return (
+    <div className={getClassNameFromVariant(variant)} style={style}>
+      {children}
+    </div>
+  );
 }

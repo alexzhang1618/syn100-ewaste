@@ -5,6 +5,7 @@
   flex-direction: row;
   gap: 3rem;
   justify-content: space-between;
+  align-items: center;
 
   .info {
     display: flex;
@@ -35,6 +36,6 @@
   padding-left: 1rem;
 
   strong {
-    color: #59d015;
+    color: #e19f12;
   }
 }

@@ -3,13 +3,17 @@ import styles from './style.module.scss';
 import InfoAccordion from '@/components/InfoAccordion';
 import Image from 'next/image';
 
+const COLOR = '#e19f12';
+
 export default function Help() {
   return (
     <div className={styles.container}>
       <div className={styles.help}>
-        <Typography variant="title">what can you do as seviies?</Typography>
+        <Typography variant="title" style={{ color: COLOR }}>
+          what can you do as seviies?
+        </Typography>
         <div className={styles.dropdownContainer}>
-          <InfoAccordion title="ways you can dispose e-waste (on campus)">
+          <InfoAccordion title="ways you can dispose e-waste (on campus)" accentColor={COLOR}>
             <Typography variant="body">
               <ul className={styles.list}>
                 <li>
@@ -34,7 +38,7 @@ export default function Help() {
               </ul>
             </Typography>
           </InfoAccordion>
-          <InfoAccordion title="ways you can dispose e-waste (off campus)">
+          <InfoAccordion title="ways you can dispose e-waste (off campus)" accentColor={COLOR}>
             <Typography variant="body">
               <ul className={styles.list}>
                 <li>
@@ -52,7 +56,7 @@ export default function Help() {
               by doing this your e-waste will go through properly regulated and formal recycling
             </Typography>
           </InfoAccordion>
-          <InfoAccordion title="informal recycling">
+          <InfoAccordion title="informal recycling" accentColor={COLOR}>
             <Typography variant="body">
               <ul className={styles.list}>
                 <li>

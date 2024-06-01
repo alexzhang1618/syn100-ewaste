@@ -3,7 +3,7 @@ import styles from './style.module.scss';
 import InfoAccordion from '@/components/InfoAccordion';
 import Image from 'next/image';
 
-export default function Contribution() {
+export default function Obsolescence() {
   return (
     <div className={styles.container}>
       <div className={styles.contribution}>

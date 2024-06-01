@@ -9,8 +9,20 @@
   flex-wrap: wrap;
   margin: 0;
 
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
   .link {
     color: black;
+    transition: all 0.3s;
+    transform-origin: left;
+
+    &:hover {
+      transform: scale(1.05);
+    }
   }
 
   @media screen and (width <= vars.$breakpoint-md) {

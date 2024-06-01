@@ -1,18 +1,21 @@
 import { CSSProperties, ReactNode } from 'react';
 import styles from './style.module.scss';
 
-type Variant = 'title' | 'label' | 'body';
+type Variant = 'title' | 'subtitle' | 'label' | 'body';
 
 interface TypographyProps {
   variant: Variant;
   style?: CSSProperties;
   children: ReactNode;
+  className?: string;
 }
 
 function getClassNameFromVariant(variant: Variant) {
   switch (variant) {
     case 'title':
       return styles.title;
+    case 'subtitle':
+      return styles.subtitle;
     case 'label':
       return styles.label;
     case 'body':
@@ -22,9 +25,9 @@ function getClassNameFromVariant(variant: Variant) {
   }
 }
 
-export default function Typography({ variant, children, style }: TypographyProps) {
+export default function Typography({ variant, children, style, className }: TypographyProps) {
   return (
-    <div className={getClassNameFromVariant(variant)} style={style}>
+    <div className={`${getClassNameFromVariant(variant)} ${className || ''}`} style={style}>
       {children}
     </div>
   );

@@ -1,6 +1,7 @@
 @use 'src/styles/vars.scss' as vars;
 
 .container {
+  padding: 3rem 0;
   display: flex;
   flex-direction: row;
   gap: 3rem;

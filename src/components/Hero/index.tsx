@@ -8,9 +8,14 @@ export default function Hero() {
     <div className={styles.container}>
       <div>
         <Typography variant="title">time to act!</Typography>
-        <Link href="/#info" className={styles.link}>
-          <Typography variant="label">learn more about the e-waste crisis &gt;</Typography>
-        </Link>
+        <div className={styles.links}>
+          <Link href="/#info" className={styles.link}>
+            <Typography variant="label">&gt; learn more about the e-waste crisis</Typography>
+          </Link>
+          <Link href="/#quiz" className={styles.link}>
+            <Typography variant="label">&gt; take the e-waste personality quiz</Typography>
+          </Link>
+        </div>
       </div>
       <div className={styles.graphic}>
         <Image

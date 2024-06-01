@@ -5,9 +5,9 @@ import Image from 'next/image';
 
 const COLOR = '#e19f12';
 
-export default function Help() {
+export default function Contribute() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="contribute">
       <div className={styles.help}>
         <Typography variant="title" style={{ color: COLOR }}>
           what can you do as seviies?

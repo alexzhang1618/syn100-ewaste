@@ -11,6 +11,17 @@
   }
 }
 
+.subtitle {
+  font-family: 'Fraunces', serif;
+  font-size: 50px;
+  font-weight: 900;
+  color: vars.$orange;
+
+  @media screen and (width <= vars.$breakpoint-sm) {
+    font-size: 30px;
+  }
+}
+
 .label {
   font-family: 'IBM Plex Mono', monospace;
   font-size: 21px;

@@ -11,10 +11,17 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <div>
-        <Image className={styles.background} src="/background.png" alt="Background Graphic" fill />
-      </div>
-      <body>{children}</body>
+      <body>
+        <div>
+          <Image
+            className={styles.background}
+            src="/background.png"
+            alt="Background Graphic"
+            fill
+          />
+        </div>
+        {children}
+      </body>
     </html>
   );
 }

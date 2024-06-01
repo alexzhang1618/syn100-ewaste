@@ -1,6 +1,6 @@
 import styles from './page.module.scss';
-import Help from '@/sections/help';
 import Contribution from '@/sections/contribution';
+import Obsolescence from '@/sections/obsolescence';
 import Info from '@/sections/info';
 import Hero from '@/components/Hero';
 
@@ -10,7 +10,7 @@ export default function Home() {
       <Hero />
       <Info />
       <Contribution />
-      <Help />
+      <Obsolescence />
     </main>
   );
 }

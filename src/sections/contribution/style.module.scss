@@ -5,16 +5,13 @@
   flex-direction: row;
   gap: 3rem;
   justify-content: space-between;
+  align-items: center;
 
   .info {
     display: flex;
     flex-direction: column;
     gap: 1rem;
   }
-}
-
-.title {
-  margin-bottom: 20px;
 }
 
 .dropdownContainer {
@@ -39,6 +36,6 @@
   padding-left: 1rem;
 
   strong {
-    color: #d5771a;
+    color: #e19f12;
   }
 }

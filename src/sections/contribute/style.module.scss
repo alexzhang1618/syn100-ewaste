@@ -1,0 +1,56 @@
+@use 'src/styles/vars.scss' as vars;
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  justify-content: space-between;
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.dropdownContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.graphic {
+  padding-top: 3rem;
+}
+
+@media screen and (width <= vars.$breakpoint-md) {
+  .graphic {
+    display: none;
+  }
+  .title {
+    text-align: center;
+  }
+}
+
+.link {
+  color:#d5771a;
+}
+
+.link:visited {
+  color: #e19f12;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-left: 1rem;
+
+  strong {
+    color: #d5771a;
+  }
+}

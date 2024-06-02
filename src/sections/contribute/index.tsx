@@ -2,6 +2,7 @@ import Typography from '@/components/Typography';
 import styles from './style.module.scss';
 import InfoAccordion from '@/components/InfoAccordion';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const COLOR = '#e19f12';
 
@@ -9,31 +10,21 @@ export default function Contribute() {
   return (
     <div className={styles.container} id="contribute">
       <div className={styles.help}>
+        <div className={styles.title}>
         <Typography variant="title" style={{ color: COLOR }}>
           what can you do as seviies?
         </Typography>
+        </div>
         <div className={styles.dropdownContainer}>
-          <InfoAccordion title="ways you can dispose e-waste (on campus)" accentColor={COLOR}>
+          <InfoAccordion title="ways you can dispose e-waste (on campus)" accentColor={COLOR} defaultExpanded>
             <Typography variant="body">
               <ul className={styles.list}>
                 <li>
-                  often governed by legal frameworks that outline guidelines for collection,
-                  transportation, treatment, and disposal of e-waste.
+                  during the move-in process, it would be good practice to designate a specific area or bucket for any used batteries and other e-waste in order to make the disposal process a lot smoother.
+                  by doing this, you can save a lot of time when it comes to searching and preparing your e-waste for disposal.
                 </li>
                 <li>
-                  this method typically involves the use of specialized facilities equipped with
-                  advanced technology and trained personnel to manage e-waste safely and
-                  effectively.
-                </li>
-                <li>
-                  formal recycling aims to minimize environmental impact by ensuring proper disposal
-                  of hazardous materials and maximizing resource recovery through techniques like
-                  shredding, sorting, and extracting valuable metals.
-                </li>
-                <li>
-                  activities associated with formal recycling are often governed by legal frameworks
-                  that outline guidelines for collection, transportation, treatment, and disposal of
-                  e-waste.
+                  if you have used batteries during the move-out process, you may dispose them either by dropping them off at the Seventh College Residential Life Office or by following <a className={styles.link} target="_blank" href="https://blink.ucsd.edu/safety/research-lab/hazardous-waste/disposal-guidance/battery/index.html#Battery-Disposal-for-Campus,-SI">this procedure.</a>
                 </li>
               </ul>
             </Typography>
@@ -56,20 +47,29 @@ export default function Contribute() {
               by doing this your e-waste will go through properly regulated and formal recycling
             </Typography>
           </InfoAccordion>
-          <InfoAccordion title="informal recycling" accentColor={COLOR}>
+          <InfoAccordion title="looking forward to the future" accentColor={COLOR}>
             <Typography variant="body">
               <ul className={styles.list}>
                 <li>
-                  large amounts of e-waste are exported from developed nations to developing
-                  countries, who don&apos;t have the tools to properly dispose of e-waste.
+                  UCSD plans to provide numerous donation bins and e-waste containers near key locations during fall move-in and spring move-out
                 </li>
                 <li>
-                  developing countries don&apos;t have the tools to properly dispose of e-waste and
-                  often resort to burning or manually dismantling electronics.
+                  EH&S is expanding their training and enforcement to more students and staff members in order to promote and educate others on how to properly dispose of electronic waste
                 </li>
                 <li>
-                  e-waste disposal in developing countries are often performed by children, who are
-                  exposed to high levels of hazardous chemicals and injury.
+                  for more information, you can visit UCSD's <a className={styles.link} target="_blank" href="https://sustain.ucsd.edu/_files/UCSanDiegoZeroWastePlan.pdf">Zero Waste Plan</a>
+                </li>
+              </ul>
+            </Typography>
+          </InfoAccordion>
+          <InfoAccordion title="who to contact" accentColor={COLOR}>
+            <Typography variant="body">
+              <ul className={styles.list}>
+                <li>
+                  <a className={styles.link} href="mailto:seventhreslife@ucsd.edu">seventhreslife@ucsd.edu</a> (for more information about e-waste disposal during move-in/move-out)
+                </li>
+                <li>
+                  <a className={styles.link} href="mailto:hazwaste@ucsd.edu">hazwaste@ucsd.edu</a> (for more information on general e-waste procedures)
                 </li>
               </ul>
             </Typography>

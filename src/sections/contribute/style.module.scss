@@ -13,6 +13,10 @@
   }
 }
 
+.title {
+  margin-bottom: 20px;
+}
+
 .dropdownContainer {
   display: flex;
   flex-direction: column;
@@ -32,6 +36,14 @@
   }
 }
 
+.link {
+  color:#d5771a;
+}
+
+.link:visited {
+  color: #e19f12;
+}
+
 .list {
   display: flex;
   flex-direction: column;
@@ -39,6 +51,6 @@
   padding-left: 1rem;
 
   strong {
-    color: #e19f12;
+    color: #d5771a;
   }
 }

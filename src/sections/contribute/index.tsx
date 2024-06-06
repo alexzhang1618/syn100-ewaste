@@ -9,7 +9,7 @@ export default function Contribute() {
   return (
     <div className={styles.container} id="contribute">
       <div className={styles.help}>
-        <Typography variant="title" style={{ color: COLOR }}>
+        <Typography variant="title" style={{ color: COLOR }} className={styles.title}>
           what can you do as seviies?
         </Typography>
         <div className={styles.dropdownContainer}>

@@ -7,6 +7,12 @@
   gap: 2rem;
 }
 
+@media screen and (width <= vars.$breakpoint-md) {
+  .title {
+    text-align: center;
+  }
+}
+
 .activityContainer {
   background-color: white;
   padding: 3rem;

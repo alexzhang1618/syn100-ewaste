@@ -61,7 +61,7 @@ export default function PersonalityQuiz() {
 
   return (
     <div className={styles.container} id="quiz">
-      <div>
+      <div className={styles.title}>
         <Typography variant="title">e-waste personality quiz</Typography>
       </div>
 

@@ -43,3 +43,10 @@
     color: #d5771a;
   }
 }
+
+.numberedList {
+  padding-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}

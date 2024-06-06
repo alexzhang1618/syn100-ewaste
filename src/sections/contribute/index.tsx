@@ -15,20 +15,20 @@ export default function Contribute() {
         </Typography>
         <div className={styles.dropdownContainer}>
           <InfoAccordion
-            title="ways you can dispose e-waste (on campus)"
+            title="how to dispose of e-waste (on campus)"
             accentColor={COLOR}
             defaultExpanded
           >
             <Typography variant="body">
               <ul className={styles.list}>
                 <li>
-                  during the move-in process, it would be good practice to designate a specific area
-                  or bucket for any used batteries and other e-waste in order to make the disposal
-                  process a lot smoother. by doing this, you can save a lot of time when it comes to
-                  searching and preparing your e-waste for disposal.
+                  During the move-in and move-out process, it&apos;s good practice to designate a
+                  specific area or bucket for used batteries and e-waste to make the disposal
+                  process smoother. By doing this, you can save time when it comes to searching and
+                  preparing your e-waste for disposal.
                 </li>
                 <li>
-                  if you have used batteries during the move-out process, you may dispose them
+                  If you have used batteries during the move-out process, you can dispose of them
                   either by dropping them off at the Seventh College Residential Life Office or by
                   following{' '}
                   <a
@@ -42,44 +42,44 @@ export default function Contribute() {
               </ul>
             </Typography>
           </InfoAccordion>
-          <InfoAccordion title="ways you can dispose e-waste (off campus)" accentColor={COLOR}>
+          <InfoAccordion title="how to dispose of e-waste (off campus)" accentColor={COLOR}>
             <Typography variant="body">
               <ul className={styles.list}>
                 <li>
-                  check if the company has a recycling program that accepts your old electronic
-                  device. you may be able to trade in your old device or recycle it for free.
+                  Check if your device&apos;s company (ex. Apple) has a recycling/trade-in program
+                  that accepts your old electronic device. You may be able to trade in your old
+                  device or recycle it for free.
                 </li>
                 <li>
-                  check out your local recycling center. some e-waste requires a drop off fee while
-                  others can be recycled for free
+                  Check your local recycling center. Some e-waste centers will require a drop off
+                  fee while others can be recycled for free.
                 </li>
                 <li>
-                  check out your local thrift store. many thrift stores accept certain electronics
+                  Check your local thrift store. Many thrift stores accept certain electronics.
                 </li>
               </ul>
-              by doing this your e-waste will go through properly regulated and formal recycling
             </Typography>
           </InfoAccordion>
           <InfoAccordion title="looking forward to the future" accentColor={COLOR}>
             <Typography variant="body">
               <ul className={styles.list}>
                 <li>
-                  UCSD plans to provide numerous donation bins and e-waste containers near key
-                  locations during fall move-in and spring move-out
+                  UC San Diego plans to provide numerous donation bins and e-waste containers near
+                  key locations during fall move-in and spring move-out.
                 </li>
                 <li>
-                  EH&S is expanding their training and enforcement to more students and staff
-                  members in order to promote and educate others on how to properly dispose of
-                  electronic waste
+                  UC San Diego Environment, Health & Safety is expanding their training and
+                  enforcement to more students and staff members in order to promote and educate
+                  others on how to properly dispose of electronic waste.
                 </li>
                 <li>
-                  for more information, you can visit UCSD&apos;s{' '}
+                  For more information, you can visit UC San Diego&apos;s{' '}
                   <a
                     className={styles.link}
                     target="_blank"
                     href="https://sustain.ucsd.edu/_files/UCSanDiegoZeroWastePlan.pdf"
                   >
-                    Zero Waste Plan
+                    Zero Waste Plan.
                   </a>
                 </li>
               </ul>

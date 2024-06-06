@@ -18,11 +18,11 @@ export default function Info() {
             <Typography variant="body">
               <ul className={styles.list}>
                 <li>
-                  e-waste (or electronic waste) refers to <strong>discarded electronics</strong>{' '}
+                  E-waste (or electronic waste) refers to <strong>discarded electronics</strong>{' '}
                   that are no longer desired or are no longer usable.
                 </li>
                 <li>
-                  e-waste includes computers, phones, televisions, refrigerators, or any device or
+                  E-waste includes computers, phones, televisions, refrigerators, or any device or
                   appliance that contains electronic components.
                 </li>
               </ul>
@@ -32,11 +32,11 @@ export default function Info() {
             <Typography variant="body">
               <ul className={styles.list}>
                 <li>
-                  e-waste often contains hazardous materials such as lead, mercury, cadmium, and
+                  E-waste often contains hazardous materials such as lead, mercury, cadmium, and
                   flame retardants.
                 </li>
                 <li>
-                  improper disposal of e-waste poses significant environmental and health risks.
+                  Improper disposal of e-waste poses significant environmental and health risks.
                 </li>
               </ul>
             </Typography>
@@ -45,15 +45,15 @@ export default function Info() {
             <Typography variant="body">
               <ul className={styles.list}>
                 <li>
-                  large amounts of e-waste are exported from developed nations to developing
+                  Large amounts of e-waste are exported from developed nations to developing
                   countries, who don&apos;t have the tools to properly dispose of e-waste.
                 </li>
                 <li>
-                  developing countries don&apos;t have the tools to properly dispose of e-waste and
+                  Developing countries don&apos;t have the tools to properly dispose of e-waste and
                   often resort to burning or manually dismantling electronics.
                 </li>
                 <li>
-                  e-waste disposal in developing countries are often performed by children, who are
+                  E-waste disposal in developing countries are often performed by children, who are
                   exposed to high levels of hazardous chemicals and injury.
                 </li>
               </ul>
